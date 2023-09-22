@@ -1,0 +1,203 @@
+body{
+    background-color:hsl(30, 38%, 92%) ;
+        display: flex;
+            justify-content: center;
+            align-items: center;
+}
+/* المربع الكبير صورة + كتابة  */
+div{width:605px;
+    height: 400px;
+    display: block;
+position: relative;
+
+}
+/* مربع الصورة*/
+#o1{
+    margin-top: 5px;
+    width:300px;
+    height: 390px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+/* مربع الكتابة*/
+#o2{position: absolute;
+    width: 300px;
+    height: 390px;
+    margin-top:5px;
+    border:solid 1px white ;
+    background-color: white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-left:0.5px;
+    
+}
+/* الكتابة الكبيرة باللون الاسود*/
+t{
+   position: absolute;
+    font-family: 'Fraunces', sans-serif;
+    color:hsl(212, 21%, 16%);
+    font-size: 25px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+/* الكنابة الرمادية كلا*/
+k{
+    
+font-family: 'Montserrat', sans-serif;
+color: hsl(228, 12%, 48%);
+position: absolute;
+}
+/* الكنابة الرمادية يلي بالراس*/
+#l1{
+    margin-left:49px;
+    font-size: 12px;
+    margin-top: 20px;}
+    /* الخمس سطور يلي تحت سطر سطر*/
+#l2{
+    margin-left: 49px;
+    font-size: 13px;
+    margin-top:160px ;
+}
+
+#l3{
+    margin-left: 49px;
+    font-size: 13px;
+    margin-top:180px;
+}
+#l4{
+    margin-left: 49px;
+    font-size: 13px;
+    margin-top:184px;
+}
+#l5{
+    margin-left: 49px;
+    font-size: 13px;
+    margin-top:206px ;
+}
+#mo{
+    font-family: 'Fraunces', sans-serif;
+    font-size: 28px;
+    position: absolute;
+    margin-top: 240px;
+    color: hsl(158, 36%, 37%);
+    margin-left: 49px;
+}
+#l6{
+    font-size: 13px;
+    margin-top: 250px;
+    margin-left: 185px;
+
+}
+#store{
+    position: absolute;
+    margin-top:300px ;
+    margin-left:49px ;
+    border: solid 1px hsl(158, 36%, 37%);
+    background-color:   hsl(158, 36%, 37%)   ;
+    ;
+     width: 220px;
+     height: 40px;
+     border-radius: 10px;
+     padding: 15px;
+     padding-top: 10px;
+     color: white;
+     font-size: 12.5px;
+     font-family: 'Montserrat', sans-serif;
+
+}
+#ph{
+   position: absolute;
+ margin-left: -23px;
+
+}
+
+@media only screen and (max-width:500px)
+{
+
+    div{
+        width:250px;
+        height:720px;
+
+    }
+   
+    #o1{
+        border-radius: 10px;
+        width: 370px;
+        height: 270px;
+     margin-left: 0px;
+        margin-top: 0px;
+    content: url("image-product-mobile.jpg");
+border-bottom-right-radius: 0px;
+border-bottom-left-radius: 0px;
+}
+#o2{border-radius: 10px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    width: 368px;
+        height: 435px;
+        margin-left: 0px;
+        margin-top:0px;
+      
+}
+t{margin-top: 45px;
+    margin-left:25px;
+font-size: 30px;
+}
+#l1{margin-top: 10px;
+    font-size: 15px;
+    margin-left:25px;
+  }
+    /* الخمس سطور يلي تحت سطر سطر*/
+#l2{
+    margin-top: 189px;
+    font-size: 15px;
+    margin-left: 25px;
+  
+}
+
+#l3{
+
+    font-size: 15px;
+    margin-left: 25px;
+    margin-top:218px;
+}
+#l4{
+    margin-left: 25px;
+    margin-top:230px;
+    font-size: 15px;
+}
+#l5{
+    margin-left: 25px;
+    margin-top:255px ;
+    font-size: 15px;
+}
+#mo{
+ 
+    margin-top: 295px;
+ font-size: 25px;
+    margin-left: 25px;
+}
+#l6{
+  
+    margin-top: 300px;
+    margin-left: 165px;
+font-size: 15px;
+}
+#store{
+    
+    margin-top:355px ;
+    margin-left:25px ;
+font-size: 17px;
+     width: 300px;
+     height: 40px;
+     border-radius: 10px;
+     padding: 30px;
+     padding-top: 10px;
+
+}
+#ph{
+   position: absolute;
+ margin-left: -23px;
+
+}
+}
